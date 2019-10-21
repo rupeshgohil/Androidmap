@@ -1,0 +1,471 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJpSQdl8CGXjkRAg37hhFRDo0",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJBax8VFK4XTkRMOCpeEdWlnA",
+      "types": [
+        "route"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 23.6076906,
+          "lng": 72.9587854
+        },
+        "southwest": {
+          "lat": 23.0482956,
+          "lng": 72.6389925
+        }
+      },
+      "copyrights": "Map data Â©2019",
+      "legs": [
+        {
+          "distance": {
+            "text": "75.6 km",
+            "value": 75641
+          },
+          "duration": {
+            "text": "1 hour 46 mins",
+            "value": 6389
+          },
+          "end_address": "Unnamed Road, Zahirabad, Savgadh, Gujarat 383220, India",
+          "end_location": {
+            "lat": 23.6074686,
+            "lng": 72.9329063
+          },
+          "start_address": "B/20, Vijay Park Society, Krishna Nagar, Saijpur Bogha, Ahmedabad, Gujarat 382345, India",
+          "start_location": {
+            "lat": 23.0513259,
+            "lng": 72.6396968
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "21 m",
+                "value": 21
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 4
+              },
+              "end_location": {
+                "lat": 23.0513529,
+                "lng": 72.63949680000002
+              },
+              "html_instructions": "Head \u003cb\u003ewest\u003c/b\u003e",
+              "polyline": {
+                "points": "yeukCcmjzL?FC^"
+              },
+              "start_location": {
+                "lat": 23.0513259,
+                "lng": 72.6396968
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 303
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 117
+              },
+              "end_location": {
+                "lat": 23.0486731,
+                "lng": 72.6389925
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "}eukC{kjzLLBn@FN@f@DB@R@f@Ff@FVBr@FD?P@d@DL@NBL@\\FVBB@\\Fj@J"
+              },
+              "start_location": {
+                "lat": 23.0513529,
+                "lng": 72.63949680000002
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 235
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 62
+              },
+              "end_location": {
+                "lat": 23.0482956,
+                "lng": 72.6412428
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "eutkCuhjzL\\aB@CLkABS@EB]@a@Dc@F{@BeAAO"
+              },
+              "start_location": {
+                "lat": 23.0486731,
+                "lng": 72.6389925
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "7.9 km",
+                "value": 7942
+              },
+              "duration": {
+                "text": "17 mins",
+                "value": 1018
+              },
+              "end_location": {
+                "lat": 23.1110715,
+                "lng": 72.6730498
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNarol - Naroda Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Vijay Park Shopping Center (on the left)\u003c/div\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "{rtkCwvjzLq@Gg@EmDYkBOOAkBQQCaFi@eC_@UEUAg@GQC_@Ee@EAAe@E}@GcAGQAqESUAk@CeAIeAGyBMG?aDM_BGkCM{@Eu@EkAEA?YC]A_BIaBGq@CeAAc@@o@DW@s@F_AFy@FU@U@a@?U?m@AUA]CYEe@KADCBA@A?A@A?A@A?A?A@A?A?A?AAC?AAAAA??AA??AA??AaBw@kC_CSQqDwCoAeAaBqA]Yi@c@mAiA_HgF]YiBgBeAaAq@i@[UOIo@Y_Ac@qAe@_@QmAg@cB{@}@o@_As@m@g@kA{@yBcBe@][UWUcAu@cHsFi@a@KK_@Om@e@aDgCeG{Em@e@aAu@aBoA{AgAw@m@{@u@EEGEgBsAeBqAk@a@_EsCoDmCmHqFc@[MICAo@SaASWEIG[@A?SD_@Ac@NOHM@IB[@I@W@k@Cg@I{@SgAe@k@Ug@Yy@q@oBiByBuBgAeA[WSWOYU[{@u@oA_Ae@WOG_@Sm@YuCyAECi@U_@QoB}@iD}AoFaCeAg@MGmB{@_@QgAc@KGcDmAaA_@kAa@]OkCcAq@WYK{@]qAg@u@[i@Qk@U_CaAqCeAA?}Ak@wD{AOIYKKM}CkAiBs@gCeA[MkE{AQGs@?O?M?OAI?QIQK"
+              },
+              "start_location": {
+                "lat": 23.0482956,
+                "lng": 72.6412428
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "12.7 km",
+                "value": 12695
+              },
+              "duration": {
+                "text": "20 mins",
+                "value": 1211
+              },
+              "end_location": {
+                "lat": 23.2133033,
+                "lng": 72.7236649
+              },
+              "html_instructions": "At \u003cb\u003eRanasan Cir\u003c/b\u003e, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eNH 48\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Pancheshwar Mahdev Mandir (on the right in 2.7&nbsp;km)\u003c/div\u003e",
+              "maneuver": "roundabout-left",
+              "polyline": {
+                "points": "e{`lCq}pzLA?A@A?A?A?A?G?EAGAEAECECEECEAA?AA??AAAAAa@[oAsAeE_Bo@Uk@Uw@YiCcAuAk@cA_@SIgFqBOGwDyAQGwAi@OEcBk@M@A?cBe@gJqDkFuBYKQGmEcBICuHwC{EkBsEiBMGIEIGUQMGQIq@[k@YEAgAe@c@Oc@QeDqAcDqAcE_Bk@UiBu@{Ai@{@]w@]{@a@eAm@{DuBiHsD_EwByDsBWOsCyAoAw@oCwA{DuBWMyF{CgFqCs@a@s@_@}@e@{CaBaHwDWAMESIuAs@sAy@eAm@a@YeAo@eCaBkEsCcDyBgCeB_EmCwHaFyAaAgCcBwBwA{A_AgAo@[Qo@_@o@Ye@Wm@_@e@]CAk@]c@YiBkAkGaEyA_AWQqA}@wBsAcEiCwBsAoAw@mAu@OMKIKMQUKOMKUQ}A_AcCyAiBgAy@c@g@Uw@UYIQE_@Io@Kg@Ic@Ge@EwAMeCUcBOqD]wBSqHw@MAcD]{@K}AOeDYq@EM?G?M@U@G@G?K?YEaAM_CUE?iD]_CWmAO_AKuC[_AKeLmA{I}@u@IyFgAmOcBwFo@eKiAa@Ec@Gc@Ec@Ga@Ec@G]EE?a@Ec@Gc@Ec@Ea@Ec@Gc@Ec@Ea@Gc@Ec@Ea@ESCOCc@Ec@EQCOCc@Ec@Ga@EMACAQCc@Ea@GCA_@ESEMCc@KA?_@KYIGAa@MIAUMICw@]}Aw@m@YYWaIcHuB}AsAmA[Y[W[YYW[Y[W[W[YQOIGSQGG[W[WYUAAQO?AGGCCEMGOCEM]sAeAe@a@aAy@iAcAwAgAo@a@y@_@wCsA_FuBgEeB[MeDwAaCcAyD}AwGsC"
+              },
+              "start_location": {
+                "lat": 23.1110715,
+                "lng": 72.6730498
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "17 m",
+                "value": 17
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 1
+              },
+              "end_location": {
+                "lat": 23.2133462,
+                "lng": 72.7235032
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "cztlC{yzzLI^"
+              },
+              "start_location": {
+                "lat": 23.2133033,
+                "lng": 72.7236649
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.6 km",
+                "value": 1582
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 138
+              },
+              "end_location": {
+                "lat": 23.2261625,
+                "lng": 72.730223
+              },
+              "html_instructions": "Turn \u003cb\u003eright\u003c/b\u003e at the 1st cross street",
+              "maneuver": "turn-right",
+              "polyline": {
+                "points": "mztlC{xzzLQIECa@Q_@O_@Q_@Oa@OUKIE_@O_@Q_@Oa@Q_@OIEUIa@Q_@OEAYKa@OYKEEOKaC}@iHaDmAg@eAc@aKiEeFwBuD_Bk@WaBq@kBy@QIeDwA{BaAc@S"
+              },
+              "start_location": {
+                "lat": 23.2133462,
+                "lng": 72.7235032
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "18 m",
+                "value": 18
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 6
+              },
+              "end_location": {
+                "lat": 23.226327,
+                "lng": 72.73021159999999
+              },
+              "html_instructions": "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eNH 48\u003c/b\u003e",
+              "maneuver": "turn-slight-left",
+              "polyline": {
+                "points": "ojwlC{b|zLE?Y@A?"
+              },
+              "start_location": {
+                "lat": 23.2261625,
+                "lng": 72.730223
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "48.1 km",
+                "value": 48123
+              },
+              "duration": {
+                "text": "55 mins",
+                "value": 3310
+              },
+              "end_location": {
+                "lat": 23.580858,
+                "lng": 72.95878279999999
+              },
+              "html_instructions": "At \u003cb\u003eChiloda Cir\u003c/b\u003e, take the \u003cb\u003e4th\u003c/b\u003e exit and stay on \u003cb\u003eNH 48\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e",
+              "maneuver": "roundabout-left",
+              "polyline": {
+                "points": "qkwlCyb|zLOFA?EBE@G@Q@SIKEKGMKCECCAEEMCQAI?C@G@G]WcB{@uRkIcL{EaDuAeHuC}ToJaCaAaBq@cAa@kCiAaBu@w@[}Ao@aDwAwAo@mDyAyKiE{CeAwCeAyHmCsBw@OGuAi@{@[yCiAcGuByg@qRmGaCaA]sFoBaAe@q@UcBu@sBoA[U_IsH_B}AOQgH_HqHoHqCoCe@c@s@e@e@Wa@QUMw@a@s@UmBm@aCs@s]mKcTiGm@S[I_NgE[IkA_@iDmAuA]q\\_K}@YuAa@mDgAsBo@iGiBgA[oAc@gCcA}B_AwIaEmWaLsMoFq@IGAGCGAq@[m@SuCsAa@Oy@_@}CwAwDgB}E{BeD}AoFgCa@S{E{BcEkBeCaBq@Wo@UgAa@}@YiA]aLkDgA_@iHwBg@O_@Ka@K_@I[G]GiAKw@E{@CwEOc@AqM]aEKqUs@oEMeNa@gBGuEM{IY_BEOAq@Ek@Eg@Ii@Km@Og@Su@_@u@_@[SeEaCoAu@SMoJ_GkJwFaC}A_IaFwb@wWuEkC{CqBsAu@}A_AyCmBsNaJ_Ak@o@]aJcF}A_AeAm@mAq@yCgBoMqH_CuAwd@{WmDqBoEcCeDoBqDuBeHaEsC}AaBaAmBiAeEaCoKaG_EsByJoF}@c@uCmBcGmEgAu@qCeBqDqBeGiDmJqFsFeD_DoBwCaByCeBmAu@sAq@_Ae@mD_BOGcH}CkGmCsGsC}B_AmAe@s@[cCqA_CyAqHoF}HyFqDiCgGqEa@YoB{AgCkBwByAcBkA_EwC}@o@gb@mZmHmF}IgGkPmJqCaBgAo@sIaFcT{LWIg@Sc@M]Ki@IOC_@Cw@CiA?cBHaAHwDZiE\\kAJuAJeBL}@HcBLiAHs@H{@F_AHu@F_AJgAHi@Di@@a@@q@Ak@Iw@O}@Sw@[w@m@m@i@e@k@c@o@g@cA[cA_@mBWqBWmBUmBKw@Kw@o@{F]gCMmAScBk@sE]yCe@{DYmCQwAW{B[gC[gCKu@e@wDScBQqBE[?AYaDi@iFQeBSmBQoA[}CG]G]?EOeAMmA_AsIACm@_Fc@cBYaAMQoAiBs@k@w@e@WQgAa@_AUcAIcC?w@DsBLeCRkBL{OfAm@D{Lz@cEVc@B]Bi@?_AIo@Ok@MwAs@s@k@iC{BgGsFeCwB_BuA}EeEqI_I_FiEg@e@WUa@]cCmBkBeBwD{C_@Yg@]eAs@aI{FcAu@qDkCcDaCoCsBgCoBs@m@sAwA_AaBmTa`@wAeCU_@qGyKiB_DeAyBqNaW_IsNu@wA_CiE}@}A_@o@o@y@_A{@YWiG}EcEgDsI_H_KgIAAwC{Bw@w@wIyGiCuB}FaFaAmAg@m@cBaCwBoDkFyIuAyBqCqEgE{GMQcEeHoCmEaHwKeLyRy@_B_CaEaBuCGM_D}FmBmDS_@o@iAi@w@e@m@Y[_Ay@}AmAgPuLqNiKsCuB_CaBkFuDgFwDaE{COKuIqGcSuNqMiJiEcCkAq@}@e@qH_EiRcK_CqAEAmBcA{Aq@EAwA_@{@K_BEeGIqCBeBCsHGaZYaHI_EE{BEw@CwCC}@AeAEe@CgAK_@EyE{@yEy@}NsCwAWyAYuDq@yI}AiTeEiDo@mDo@}IaBqDo@wAYqAUgDo@uAWqAUcDk@gNcCoPwCA?[IsDiBy@c@"
+              },
+              "start_location": {
+                "lat": 23.226327,
+                "lng": 72.73021159999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 228
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 44
+              },
+              "end_location": {
+                "lat": 23.5828296,
+                "lng": 72.95826479999999
+              },
+              "html_instructions": "At \u003cb\u003eMotipura Cir\u003c/b\u003e, take the \u003cb\u003e1st\u003c/b\u003e exit\u003cdiv style=\"font-size:0.9em\"\u003ePass by Himmat Nagar (on the left)\u003c/div\u003e",
+              "maneuver": "roundabout-left",
+              "polyline": {
+                "points": "ks|nCkwh|LA?AAA?C?A?AAA?AAM@QBUBODQFOFy@Va@Je@HE@qAPu@J"
+              },
+              "start_location": {
+                "lat": 23.580858,
+                "lng": 72.95878279999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "3.4 km",
+                "value": 3357
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 343
+              },
+              "end_location": {
+                "lat": 23.6067901,
+                "lng": 72.9435276
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHimmatnagar Bypass Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eToll road\u003c/div\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Nilkanth Frame (on the left)\u003c/div\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "u_}nCcth|LQ\\EFEDUd@C@IRs@|A[l@cAhBuC`FgAhBu@tAS^qA~BILcCdEcBdDEL_CjFABiDfHkDhHyAbDYd@[^[X{AfAsAx@_@N[He@Hk@Fc@D}@FqCPsEb@q@DwBL{Jj@{FZsJh@yFZiQdAkOx@"
+              },
+              "start_location": {
+                "lat": 23.5828296,
+                "lng": 72.95826479999999
+              },
+              "travel_mode": "DRIVING"
+            },
+            {
+              "distance": {
+                "text": "1.1 km",
+                "value": 1120
+              },
+              "duration": {
+                "text": "2 mins",
+                "value": 135
+              },
+              "end_location": {
+                "lat": 23.6074686,
+                "lng": 72.9329063
+              },
+              "html_instructions": "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003ePass by Al Momin Faram (on the right in 500&nbsp;m)\u003c/div\u003e",
+              "maneuver": "turn-left",
+              "polyline": {
+                "points": "muaoCaxe|LL~BR~E@VF|@BX@JBHHVFTBJ?H?F?D?N?D?ZA`@C|@AvA?T?V?LAVC^Aj@@T@\\@RALCTC\\Gn@Kz@Mn@Sz@IZ?L?TBz@Bh@@LAPCPMz@WlASl@m@pBm@vAQb@CJCL?P@LFTRh@DLDP@L?@"
+              },
+              "start_location": {
+                "lat": 23.6067901,
+                "lng": 72.9435276
+              },
+              "travel_mode": "DRIVING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "yeukCcmjzLCf@|@JnAJfFd@rAP`@Hj@J\\aBNoADYR_D@uAyAMuK}@oKsAoBSiMu@gUgAyLi@kE@eEXcBB{BMg@EEDGBK@KECCaBy@_DqCaKiIuLoJ}FiFqEmBmBy@aDkBsH{F}C_CmIuGk@[cOoLwH{FqDuCaOuKcJyGsCu@qADkA^iB@cB]sB{@aBkAiF_FcB}Ac@q@qAqAuBwAsFoCmTyJaFyBoI_DqNqFqJsDgEeBe@YkLsE}EcBcA?]A[IUI]C]YCCc@]oAsAeE_B{Ak@aE}AuKgEqHsCcCo@cBe@sQgHcG{BsVuJw@g@kL{E}N}FkGgCad@eVk^qR}LyGe@GcGeD}e@o[uL}HcE{BcQ}KuWoPy@{@mCmBmFaDaBy@cCo@aDc@sNqA{QkBqJ{@y@Bu@CuWqCwZaDyFgAmOcB}RyBmC[iBS{Gs@wFm@oDc@qDk@cBe@aBq@kCqA{I{HaG}EaEmDaCsBYi@Qc@yBgBkC}BgCiByRoI}NgGwGsCI^WMaCcAaBq@cFuB{Ai@UQkL_F{VmKoLcFwIwDq@HUFe@GWMW[Km@BOaCsAan@sWij@qUyFgCgQcHaVqIidA_`@uHuCuCkAoCeB_LqK{VqVyAiAgAi@mAo@aDcAgx@_VcR{F_GkBo^yKaScGwC_AeGcCeb@cRsMoFq@IOEy@]_HwCyUyKqTcKwDyBwBw@qRcGsK_D{@QgBSoJ[utA}DmESqAUuAc@mIuE_Y{PaM_Imi@c\\gNuIsPmKqKaGkKgGcwAay@iPkJg_@iSyK{HyE{CwL{GaRwK_PmJqI_Ea]_OaCaAcGkDi`@eYqK{Him@ac@kSuN}ToMwa@wUsCw@qDKgPlAcRxA}Ff@gDFcBYuBo@eBwAiA{AcAgCw@_FeAkIyFmf@yDg\\}CkZ}CmW}@eD}A{BkBqA_Bs@cC_@{DDa[vBqU|AgABoBYcCaA}DgDkUgSqReQiMmKy^_X{D}CsAwA_AaBeWgd@gHyLoDyGqXuf@sGoLoBuBcHuFy[qWoEsDaNoK}FaFaAmAkCoDkQuYiPaXaHwKeLyRyDaHwJoQcAiBoAeByAuAeScOq^wWoWqRua@_ZuGuDya@{TuEyBsCk@eJOwF?uc@a@uSYaIOgBQsLuBeZwF{i@cKmd@kIu`@eHqFoCm@@oEhAgC\\Wd@i@`AoAjCyEjIcF~IwFfKwM`YsBhEw@x@oD`C{@XsD^eJt@iDRef@lCua@~B`@~INzBXbAEhDGlGAtAe@xD]vA?b@FdC}@hEqBxFC^Hb@`@vA?@"
+      },
+      "summary": "NH 48",
+      "warnings": [],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
+
+  private List<Polyline> m_RouteLine;
+public void generateRouteWithWayPoints(Activity activity, final LatLng origin, final LatLng destination, ArrayList<LatLng> wayPoints) {
+        //dialog.show();
+        if (progressMap != null) {
+            progressMap.setVisibility(View.VISIBLE);
+        }
+        m_PolyLineRequest = m_ApiReqest.getMapRoutesWithWayPoints(
+                getOriginParams(origin),
+                getDestinationParams(destination),
+                getWarpaintParams(wayPoints),
+                activity.getString(R.string.google_maps_key)
+        );
+        m_PolyLineRequest.enqueue(new Callback<DirectionResults>() {
+            @Override
+            public void onResponse(Call<DirectionResults> call, Response<DirectionResults> response) {
+               /* if (dialog.isShowing() && dialog != null) {
+                    dialog.dismiss();
+                }*/
+                if (progressMap != null) {
+                    progressMap.setVisibility(View.GONE);
+                }
+                m_PolyLineRequest = null;
+                Activity activity = getActivity();
+                if (activity != null) {
+                    DirectionResults directionResults = response.body();
+                    if (directionResults != null) {
+                        Helper.logDisplay("zacharia", "inside on success" + directionResults.getRoutes().size());
+                        ArrayList<LatLng> routelist = new ArrayList<LatLng>();
+                        if (directionResults.getRoutes().size() > 0) {
+                            ArrayList<LatLng> decodelist;
+                            Route routeA = directionResults.getRoutes().get(0);
+                            Helper.logDisplay("zacharia", "Legs length : " + routeA.getLegs().size());
+                            if (routeA.getLegs().size() > 0) {
+                                List<Steps> steps = routeA.getLegs().get(0).getSteps();
+                                Helper.logDisplay("zacharia", "Steps size :" + steps.size());
+                                Steps step;
+                                Location location;
+                                String polyline;
+                                for (int i = 0; i < steps.size(); i++) {
+                                    step = steps.get(i);
+                                    location = step.getStart_location();
+                                    routelist.add(new LatLng(location.getLat(), location.getLng()));
+                                    Helper.logDisplay("zacharia", "Start Location :" + location.getLat() + ", " + location.getLng());
+                                    polyline = step.getPolyline().getPoints();
+                                    decodelist = RouteDecode.decodePoly(polyline);
+                                    routelist.addAll(decodelist);
+                                    location = step.getEnd_location();
+                                    routelist.add(new LatLng(location.getLat(), location.getLng()));
+                                    Helper.logDisplay("zacharia", "End Location :" + location.getLat() + ", " + location.getLng());
+                                }
+                            }
+                        }
+                        Helper.logDisplay("zacharia", "routelist size : " + routelist.size());
+                        if (routelist.size() > 0) {
+                            PolylineOptions rectLine = new PolylineOptions().width(getResources().getDimension(R.dimen.route_width)).color(
+                                    getResources().getColor(R.color.route_color));
+
+                            for (int i = 0; i < routelist.size(); i++) {
+                                rectLine.add(routelist.get(i));
+                            }
+                            m_RouteLine.add(m_GoolgeMap.addPolyline(rectLine));
+                            /*generateMarkerFromResource(origin, "PickUp Location", BitmapDescriptorFactory.fromResource(R.drawable.ic_marker_pickup));
+                            generateMarkerFromResource(destination, "DropOff Location", BitmapDescriptorFactory.fromResource(R.drawable.ic_marker_dropoff));*/
+                        }
+                    }
+                }
+            }
+
+            @Override
+            public void onFailure(Call<DirectionResults> call, Throwable t) {
+                if (progressMap != null) {
+                    progressMap.setVisibility(View.GONE);
+                }
+                Activity activity = getActivity();
+                //progressMap.setVisibility(View.GONE);
+                /*if (dialog.isShowing() && dialog != null) {
+                    dialog.dismiss();
+                }*/
+                if (activity != null) {
+                    m_PolyLineRequest = null;
+                    t.printStackTrace();
+                    Helper.showError(getContext(), getString(R.string.error_internet_connection));
+                }
+            }
+        });
+    }
+public class RouteDecode {
+
+    public static ArrayList<LatLng> decodePoly(String encoded) {
+        ArrayList<LatLng> poly = new ArrayList<LatLng>();
+        int index = 0, len = encoded.length();
+        int lat = 0, lng = 0;
+        while (index < len) {
+            int b, shift = 0, result = 0;
+            do {
+                b = encoded.charAt(index++) - 63;
+                result |= (b & 0x1f) << shift;
+                shift += 5;
+            } while (b >= 0x20);
+            int dlat = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
+            lat += dlat;
+            shift = 0;
+            result = 0;
+            do {
+                b = encoded.charAt(index++) - 63;
+                result |= (b & 0x1f) << shift;
+                shift += 5;
+            } while (b >= 0x20);
+            int dlng = ((result & 1) != 0 ? ~(result >> 1) : (result >> 1));
+            lng += dlng;
+
+            LatLng position = new LatLng((double) lat / 1E5, (double) lng / 1E5);
+            poly.add(position);
+        }
+        return poly;
+    }
+}

@@ -17,6 +17,7 @@ import java.util.Locale;
 
 public class BaseActivity extends AppCompatActivity {
     public String straddress;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,4 +42,5 @@ public class BaseActivity extends AppCompatActivity {
             }
         return straddress;
     }
+
 }

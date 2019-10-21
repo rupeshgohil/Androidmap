@@ -3,7 +3,6 @@ package gohil.aru.androidmap
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import gohil.aru.androidmap.util.PermissionUtils
@@ -15,15 +14,15 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.CameraUpdateFactory
 import gohil.aru.androidmap.util.GPSTracker
-import android.R.color
 import android.content.Intent
 import android.graphics.Color
-import com.google.android.gms.maps.CameraUpdate
+import androidx.lifecycle.Observer
 import com.google.android.gms.maps.model.*
 import gohil.aru.androidmap.modal.AddressModal
-import android.provider.ContactsContract.CommonDataKinds.Note
+import androidx.lifecycle.ViewModelProviders
 import com.google.gson.Gson
-import gohil.aru.androidmap.listener.setdataListener
+import gohil.aru.androidmap.modal.RouterModal
+import gohil.aru.androidmap.viewmodal.DirectionViewModal
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -36,13 +35,17 @@ class MainActivity : BaseActivity(), OnMapReadyCallback {
     var logitute = 0.0
     var mMarkeroption: MarkerOptions?= null
     var mArraLatlog=  ArrayList<LatLng>()
+    internal var routelist = ArrayList<LatLng>()
     var mArrapathlatlong=  ArrayList<LatLng>()
     var mPolyline: Polyline?= null
-
-
+    var mDirectionviewModal: DirectionViewModal?= null
+    var strStartLatlong:String? =null
+    var strEndLatlong:String? =null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        mDirectionviewModal =  ViewModelProviders.of(this).get(DirectionViewModal::class.java)
+       // mDirectionviewModal!!.setParam("","","",this@MainActivity)
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
             if(PermissionUtils.getLocationPermissionOnly(this@MainActivity)){
                     loadMap()
@@ -62,10 +65,10 @@ class MainActivity : BaseActivity(), OnMapReadyCallback {
       supportMapFragment =
             supportFragmentManager.findFragmentById(R.id.mapFragment) as SupportMapFragment?
         supportMapFragment!!.getMapAsync(this)
-        mArraLatlog!!.add(LatLng(22.9925317,72.3608511))
-        mArraLatlog!!.add(LatLng(23.1212981,72.5392968))
-        mArraLatlog!!.add(LatLng(23.2281532,72.4671326))
-        mArraLatlog!!.add(LatLng(23.6051955,72.9330389))
+        mArraLatlog!!.add(LatLng(23.4742474,72.3899406))
+        mArraLatlog!!.add(LatLng(23.8459622,72.1284458))
+        mArraLatlog!!.add(LatLng(22.3022178,70.788317))
+        mArraLatlog!!.add(LatLng(21.123693,72.7365433))
         mgpstraker = GPSTracker(this)
         latitude = mgpstraker!!.latitude
         logitute = mgpstraker!!.longitude
@@ -97,9 +100,26 @@ class MainActivity : BaseActivity(), OnMapReadyCallback {
             if(mPolyline != null){
                 mPolyline!!.remove()
             }
-                setPath(locAddress,LatLng(latitude,logitute))
+               // setPath(locAddress,LatLng(latitude,logitute))
+            strStartLatlong = latitude.toString()+","+logitute.toString()
+            strEndLatlong = locAddress.latitude.toString()+","+locAddress.longitude.toString()
+            Log.e("MainActivity","start_latlong"+strStartLatlong+"--EndLatlong--"+strEndLatlong)
+           // mDirectionviewModal!!.setParam(strStartLatlong!!,strEndLatlong!!,"AIzaSyAE5x_dHCWdwTcQBb8BcbT-mCOwaxC-BL4",this@MainActivity)
+            mDirectionviewModal!!.setParam(strStartLatlong!!,strEndLatlong!!,"AIzaSyAE5x_dHCWdwTcQBb8BcbT-mCOwaxC-BL4",this@MainActivity).observe(this,
+                Observer<ArrayList<RouterModal>> { directionArray ->
+                    /*var mDirection  = DirectionResults()
+
+                    if(directionArray.get(0).routes.size > 0){
+
+                    }*/
+                    Log.e("REsponse",Gson().toJson(directionArray))
+                })
             true
         })
+
+    }
+
+    private fun getResult() {
 
     }
 
