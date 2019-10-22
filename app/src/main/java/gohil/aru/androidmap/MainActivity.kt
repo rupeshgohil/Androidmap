@@ -105,7 +105,7 @@ class MainActivity : BaseActivity(), OnMapReadyCallback {
             strEndLatlong = locAddress.latitude.toString()+","+locAddress.longitude.toString()
             Log.e("MainActivity","start_latlong"+strStartLatlong+"--EndLatlong--"+strEndLatlong)
            // mDirectionviewModal!!.setParam(strStartLatlong!!,strEndLatlong!!,"AIzaSyAE5x_dHCWdwTcQBb8BcbT-mCOwaxC-BL4",this@MainActivity)
-            mDirectionviewModal!!.setParam(strStartLatlong!!,strEndLatlong!!,"AIzaSyAE5x_dHCWdwTcQBb8BcbT-mCOwaxC-BL4",this@MainActivity).observe(this,
+            mDirectionviewModal!!.setParam(strStartLatlong!!,strEndLatlong!!,"MapKey",this@MainActivity).observe(this,
                 Observer<ArrayList<RouterModal>> { directionArray ->
                     /*var mDirection  = DirectionResults()
 

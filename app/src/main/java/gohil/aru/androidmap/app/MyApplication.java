@@ -18,7 +18,7 @@ public class MyApplication extends Application {
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
-        httpClient.addInterceptor(logging); // <-- this is the important line
+        httpClient.addInterceptor(logging);
         if (null == retrofit) {
             // <-- this is the important line!
             retrofit = new Retrofit.Builder()

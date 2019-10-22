@@ -18,9 +18,9 @@ public class RouterModal implements Parcelable
     @SerializedName("routes")
     @Expose
     private ArrayList<Route> routes = new ArrayList<>();
-    /*@SerializedName("status")
+    @SerializedName("status")
     @Expose
-    private String status;*/
+    private String status;
     public final static Creator<RouterModal> CREATOR = new Creator<RouterModal>() {
 
 
@@ -39,9 +39,9 @@ public class RouterModal implements Parcelable
     ;
 
     protected RouterModal(Parcel in) {
-        in.readList(this.geocodedWaypoints, (GeocodedWaypoint.class.getClassLoader()));
+       in.readList(this.geocodedWaypoints, (GeocodedWaypoint.class.getClassLoader()));
         in.readList(this.routes, (Route.class.getClassLoader()));
-       // this.status = ((String) in.readValue((String.class.getClassLoader())));
+        this.status = ((String) in.readValue((String.class.getClassLoader())));
     }
 
     public RouterModal() {
@@ -63,18 +63,18 @@ public class RouterModal implements Parcelable
         this.routes = routes;
     }
 
-   /* public String getStatus() {
+    public String getStatus() {
         return status;
     }
 
     public void setStatus(String status) {
         this.status = status;
-    }*/
+    }
 
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeList(geocodedWaypoints);
         dest.writeList(routes);
-        //dest.writeValue(status);
+        dest.writeValue(status);
     }
 
     public int describeContents() {
